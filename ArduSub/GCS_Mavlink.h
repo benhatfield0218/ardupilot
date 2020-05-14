@@ -53,5 +53,7 @@ private:
     MAV_STATE vehicle_system_status() const override;
 
     int16_t vfr_hud_throttle() const override;
+    
+    void send_rangefinder() const override;
 
 };
