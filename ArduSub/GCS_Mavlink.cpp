@@ -2,6 +2,8 @@
 
 #include "GCS_Mavlink.h"
 
+#include <AP_RangeFinder/AP_RangeFinder_Backend.h>
+
 /*
  *  !!NOTE!!
  *
